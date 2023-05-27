@@ -43,7 +43,7 @@
       {{#each notes as |note|}}
         <div class='match-form'>
           <h4>{{note.title}}</h4>
-          <img class='image' src='http://localhost:3001/api/images/{{note.key}}' />
+          <img class='image' src="https://mediaphile.herokuapp.com/api/images//{{note.key}}" />
           <button class='btn btn-sm btn-danger' data-id='{{note.key}}'>DELETE</button>
         </div>
       {{/each}}
